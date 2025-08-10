@@ -1,0 +1,7 @@
+This is the distribution to teach how import and modules work in Python. It was
+created for Michael Brent's course CSE5807 at Washington University. 
+
+Instructions are in the assignment/assignment.ipynb file.
+
+NOTE: THIS WORK IS UNDER A RESTRICTIVE LICENSE THAT RESTRICTS PUBLIC POSTING OF 
+THIS AND OF DERIVATIVE WORKS INCLUDING SOLUTIONS TO THE ASSIGNMENT.
