@@ -12,24 +12,15 @@
 # In this file, import the code using `import` but do not use `as` or `from` -- 
 # we want it to be referenced via the full namespace prefix.
 
-# <snip>
-import subdir1.subdir2.file3
-# </snip>
 
 # Now add another `import` statement that imports the same module as `ssf3`
 # Importing the same module twice is not something you would do in real life --
 # it's just for purposes of this exercise.
 
-# <snip>
-import subdir1.subdir2.file3 as ssf3
-# </snip>
 
 # Now use `from` to import `divide` into the global namespace. 
 # Do not import `add` into the global namespace.
 
-# <snip>
-from subdir1.subdir2.file3 import divide
-# </snip>
 
 # Now create a new subdirectory under `assignment` called `subdir3`. Put a file
 # called `new_module.py` there. Move the following code into it:
@@ -39,6 +30,3 @@ from subdir1.subdir2.file3 import divide
 # Do not leave it in this file.
 
 # Now import it by name using `from`.
-# <snip>
-from subdir3.new_module import oh_my
-# </snip>
